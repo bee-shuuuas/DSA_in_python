@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hash Table Visualizer</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+        #output {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Hash Table Visualizer</h2>
+    <canvas id="hashTableCanvas" width="600" height="500"></canvas>
+    <br>
+    <input type="text" id="hashKey" placeholder="Enter Key">
+    <input type="text" id="hashValue" placeholder="Enter Value">
+    <button onclick="insertHash()">Insert</button>
+    <button onclick="deleteHash()">Delete</button>
+    <div id="output"></div>
+    <script src="hash_table_visualizer.js"></script>
+</body>
+</html>

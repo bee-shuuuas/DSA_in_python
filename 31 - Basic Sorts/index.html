@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tree Traversals Visualizer</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h2>Tree Traversals Visualizer</h2>
+    <canvas id="traversalCanvas" width="1000" height="500"></canvas>
+    <br>
+    <input type="text" id="traversalValue" placeholder="Enter Node Value">
+    <button onclick="insertNode()">Insert Node</button>
+    <button onclick="traverse('inorder')">Inorder Traversal</button>
+    <button onclick="traverse('preorder')">Preorder Traversal</button>
+    <button onclick="traverse('postorder')">Postorder Traversal</button>
+    <div id="output" style="margin-top: 10px; font-size: 18px;"></div>
+    <script src="traversal_visualizer.js"></script>
+</body>
+</html>

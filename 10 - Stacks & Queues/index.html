@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stack and Queue Visualizer</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h2>Stack Visualizer</h2>
+    <canvas id="stackCanvas" width="400" height="300"></canvas>
+    <br>
+    <input type="text" id="stackValue" placeholder="Enter Value">
+    <button onclick="pushStack()">Push</button>
+    <button onclick="popStack()">Pop</button>
+
+    <h2>Queue Visualizer</h2>
+    <canvas id="queueCanvas" width="800" height="150"></canvas>
+    <br>
+    <input type="text" id="queueValue" placeholder="Enter Value">
+    <button onclick="enqueue()">Enqueue</button>
+    <button onclick="dequeue()">Dequeue</button>
+
+    <script src="stack_queue.js"></script>
+</body>
+</html>

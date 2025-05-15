@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Heap Visualizer (Min-Heap and Max-Heap)</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+        #output {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Heap Visualizer (Min-Heap / Max-Heap)</h2>
+    <canvas id="heapCanvas" width="800" height="500"></canvas>
+    <br>
+    <input type="text" id="heapValue" placeholder="Enter Value">
+    <select id="heapType">
+        <option value="min">Min-Heap</option>
+        <option value="max">Max-Heap</option>
+    </select>
+    <button onclick="insertHeap()">Insert</button>
+    <button onclick="removeHeap()">Remove Root</button>
+    <div id="output"></div>
+    <script src="heap_visualizer.js"></script>
+</body>
+</html>

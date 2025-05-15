@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Graph Visualizer</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+        #output {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Graph Visualizer</h2>
+    <canvas id="graphCanvas" width="800" height="600"></canvas>
+    <br>
+    <input type="text" id="nodeValue" placeholder="Node Value">
+    <button onclick="addNode()">Add Node</button>
+    <button onclick="removeNode()">Remove Node</button>
+    <br><br>
+    <input type="text" id="edgeStart" placeholder="Start Node">
+    <input type="text" id="edgeEnd" placeholder="End Node">
+    <button onclick="addEdge()">Add Edge</button>
+    <button onclick="removeEdge()">Remove Edge</button>
+    <div id="output"></div>
+    <script src="graph_visualizer.js"></script>
+</body>
+</html>
