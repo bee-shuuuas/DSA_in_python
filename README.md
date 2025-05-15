@@ -52,16 +52,27 @@ To build a strong foundational understanding of:
 
 Python Data Structures and LEETCODE/
 ├── 04 - Linked Lists/
+
 ├── 07 - Doubly Linked Lists/
+
 ├── 10 - Stacks & Queues/
+
 ├── 13 - Trees/
+
 ├── 16 - Hash Tables/
+
 ├── 19 - Graphs/
+
 ├── 21 - Heaps/
+
 ├── 24 - Recursion/
+
 ├── 25 - Recursive Binary Search Trees/
+
 ├── 28 - Tree Traversal/
+
 ├── 31 - Basic Sorts/
+
 ├── 34 - Merge Sort/
 
 
