@@ -50,30 +50,21 @@ To build a strong foundational understanding of:
 
 ## 📁 Directory Structure
 
-Python Data Structures and LEETCODE/
-├── 04 - Linked Lists/
 
-├── 07 - Doubly Linked Lists/
+DSA_in_python  
+- [04 - Linked Lists](./04%20-%20Linked%20Lists/)  
+- [07 - Doubly Linked Lists](./07%20-%20Doubly%20Linked%20Lists/)  
+- [10 - Stacks & Queues](./10%20-%20Stacks%20%26%20Queues/)  
+- [13 - Trees](./13%20-%20Trees/)  
+- [16 - Hash Tables](./16%20-%20Hash%20Tables/)  
+- [19 - Graphs](./19%20-%20Graphs/)  
+- [21 - Heaps](./21%20-%20Heaps/)  
+- [24 - Recursion](./24%20-%20Recursion/)  
+- [25 - Recursive Binary Search Trees](./25%20-%20Recursive%20Binary%20Search%20Trees/)  
+- [28 - Tree Traversal](./28%20-%20Tree%20Traversal/)  
+- [31 - Basic Sorts](./31%20-%20Basic%20Sorts/)  
+- [34 - Merge Sort](./34%20-%20Merge%20Sort/)  
 
-├── 10 - Stacks & Queues/
-
-├── 13 - Trees/
-
-├── 16 - Hash Tables/
-
-├── 19 - Graphs/
-
-├── 21 - Heaps/
-
-├── 24 - Recursion/
-
-├── 25 - Recursive Binary Search Trees/
-
-├── 28 - Tree Traversal/
-
-├── 31 - Basic Sorts/
-
-├── 34 - Merge Sort/
 
 
 Each folder includes:
