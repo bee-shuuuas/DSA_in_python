@@ -47,3 +47,10 @@ function removeNode() {
     linkedList.pop();
     drawLinkedList();
 }
+
+// **Event Listener for Enter Key**
+document.getElementById('nodeValue').addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+        addNode();
+    }
+});
